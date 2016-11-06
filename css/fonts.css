@@ -1,0 +1,50 @@
+/* a_Futurica */
+@font-face {
+    font-family: "a_Futurica";
+    src: url("../fonts/a_Futurica/a_Futurica.eot");
+    src: local('a_Futurica'),
+         url("../fonts/a_Futurica/a_Futurica.woff2") format("woff2"),
+         url("../fonts/a_Futurica/a_Futurica.woff") format("woff"),
+         url("../fonts/a_Futurica/a_Futurica.ttf") format("truetype"),
+         url("../fonts/a_Futurica/a_Futurica.svg") format("svg");
+}
+
+/* a_Futurica ExtraBold */
+@font-face {
+    font-family: "a_Futurica";
+    src: url("../fonts/a_Futurica ExtraBold/a_Futurica ExtraBold.eot");
+    src: local('a_Futurica'),
+         url("../fonts/a_Futurica ExtraBold/a_Futurica ExtraBold.woff2") format("woff2"),
+         url("../fonts/a_Futurica ExtraBold/a_Futurica ExtraBold.woff") format("woff"),
+         url("../fonts/a_Futurica ExtraBold/a_Futurica ExtraBold.ttf") format("truetype"),
+         url("../fonts/a_Futurica ExtraBold/a_Futurica ExtraBold.svg") format("svg");
+}
+
+/* glyphicons-halflings-regular */
+@font-face {
+    font-family: "glyphicons-halflings-regular";
+    src: url("../fonts/glyphicons-halflings-regular/glyphicons-halflings-regular.eot");
+    src: local('glyphicons-halflings-regular'),
+         url("../fonts/glyphicons-halflings-regular/glyphicons-halflings-regular.woff2") format("woff2"),
+         url("../fonts/glyphicons-halflings-regular/glyphicons-halflings-regular.woff") format("woff"),
+         url("../fonts/glyphicons-halflings-regular/glyphicons-halflings-regular.ttf") format("truetype"),
+         url("../fonts/glyphicons-halflings-regular/glyphicons-halflings-regular.svg") format("svg");
+}
+
+.font__aFuturica{
+  font-family: 'a_Futurica', 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  /* font-weight: 400; */
+}
+
+.font__aFuturicaExtraBold{
+  font-family: 'a_Futurica ExtraBold', 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  /* font-weight: 700; */
+}
+
+.font__glyphiconsHalflingsRegular{
+  font-family: 'glyphicons-halflings-regular', 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  /* font-weight: 300; */
+}
